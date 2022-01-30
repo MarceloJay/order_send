@@ -1,0 +1,76 @@
+<Transaction>
+    <Order>
+        <ID>100</ID>
+        <PosTerminal>0</PosTerminal>
+        <TransType>1</TransType>
+        <OrderStatus>2</OrderStatus>
+        <ServerName>Bematech 2</ServerName>
+        <Destination>Drive Thru</Destination>
+        <GuestTable>Dinner 06</GuestTable>
+        <Parked>0</Parked>
+        <Item>
+            <ID>01</ID>
+            <TransType>1</TransType>
+            <Name>Hotdog</Name>
+            <Category>NA</Category>
+            <Quantity>1</Quantity>
+            <KDSStation>1</KDSStation>
+            <PreparationTime>1</PreparationTime>
+        </Item>
+        <Item>
+            <ID>02</ID>
+            <TransType>1</TransType>
+            <Name>Special #02</Name>
+            <Category>NA</Category>
+            <Quantity>2</Quantity>
+            <KDSStation>1</KDSStation>
+            <PreparationTime>3</PreparationTime>
+            <PreModifier>
+                <Count>1</Count>
+                <S0>==SEAT 8==</S0>
+            </PreModifier>
+            <Condiment>
+                <ID>7b2948a7-a02a-48f9-b5ee-8ebb5cd2d45e</ID>
+                <TransType>1</TransType>
+                <Name>* Medium *</Name>
+                <Action>1</Action>
+            </Condiment>
+            <Condiment>
+                <ID>63de796b-d45b-4d03-9eef-008c674989a8</ID>
+                <TransType>1</TransType>
+                <Name>+ FRENCH FRIES</Name>
+                <Action>1</Action>
+            </Condiment>
+            <Condiment>
+                <ID>cfa89596-d9bd-4da2-b3dc-e7da6bbc2b79</ID>
+                <TransType>1</TransType>
+                <Name>+ Loaded Masher</Name>
+                <Action>1</Action>
+            </Condiment>
+            <Condiment>
+                <ID>84808bf8-ba01-4342-83aa-edf17ca4b29a</ID>
+                <TransType>1</TransType>
+                <Name>+ Seasonal Veggies</Name>
+                <Action>1</Action>
+            </Condiment>
+        </Item>
+        <Item>
+            <ID>03</ID>
+            <TransType>1</TransType>
+            <Name>Crisp Chicken</Name>
+            <Category>NA</Category>
+            <Quantity>1</Quantity>
+            <KDSStation>1</KDSStation>
+            <PreparationTime>1</PreparationTime>
+        </Item>
+        <Item>
+            <ID>04</ID>
+            <TransType>1</TransType>
+            <Name>Lemonade</Name>
+            <Category>NA</Category>
+            <Quantity>1</Quantity>
+            <KDSStation>1</KDSStation>
+            <PreparationTime>1</PreparationTime>
+        </Item>
+    </Order>
+</Transaction>
